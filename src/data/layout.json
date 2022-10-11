@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Aspect Ratio",
+    "classes": [
+      {
+        "class": "aspect-auto",
+        "property": "aspect-ratio: auto;"
+      },
+      {
+        "class": "aspect-square",
+        "property": "aspect-ratio: 1 / 1;"
+      },
+      {
+        "class": "aspect-video",
+        "property": "aspect-ratio: 16 / 9;"
+      },
+      {
+        "class": "aspect-[{ratio}]",
+        "property": "aspect-ratio: {ratio};"
+      }
+    ]
+  },
+  {
+    "name": "Container",
+    "classes": [
+      {
+        "class": "container",
+        "breakpoint": "None",
+        "property": "width: 100%;"
+      },
+      {
+        "class": "",
+        "breakpoint": "sm (640px)",
+        "property": "max-width: 640px;"
+      },
+      {
+        "class": "",
+        "breakpoint": "md (760px)",
+        "property": "max-width: 768px;"
+      },
+      {
+        "class": "",
+        "breakpoint": "lg (1024px)",
+        "property": "max-width: 1024px;"
+      },
+      {
+        "class": "",
+        "breakpoint": "lx (1280px)",
+        "property": "max-width: 1280px;"
+      },
+      {
+        "class": "",
+        "breakpoint": "2xl (1536px)",
+        "property": "max-width: 1536px;"
+      }
+    ]
+  },
+  {
+    "name": "Columns",
+    "classes": [
+      {
+        "class": "columns-1",
+        "property": "columns: 1;"
+      },
+      {
+        "class": "columns-2",
+        "property": "columns: 2;"
+      },
+      {
+        "class": "columns-3",
+        "property": "columns: 3;"
+      },
+      {
+        "class": "columns-4",
+        "property": "columns: 4;"
+      },
+      {
+        "class": "columns-5",
+        "property": "columns: 5;"
+      },
+      {
+        "class": "columns-6",
+        "property": "columns: 6;"
+      },
+      {
+        "class": "columns-7",
+        "property": "columns: 7;"
+      },
+      {
+        "class": "columns-8",
+        "property": "columns: 8;"
+      }
+    ]
+  },
+  {
+    "name": "Break After"
+  }
+]
