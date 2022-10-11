@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Transition Property",
+    "table": [
+      {
+        "Class": "transition-none",
+        "Properties": "transition-property: none;\n"
+      },
+      {
+        "Class": "transition-all",
+        "Properties": "transition-property: all;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      },
+      {
+        "Class": "transition",
+        "Properties": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      },
+      {
+        "Class": "transition-colors",
+        "Properties": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      },
+      {
+        "Class": "transition-opacity",
+        "Properties": "transition-property: opacity;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      },
+      {
+        "Class": "transition-shadow",
+        "Properties": "transition-property: box-shadow;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      },
+      {
+        "Class": "transition-transform",
+        "Properties": "transition-property: transform;\ntransition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\ntransition-duration: 150ms;\n"
+      }
+    ]
+  },
+  {
+    "name": "Transition Duration",
+    "table": [
+      {
+        "Class": "duration-75",
+        "Properties": "transition-duration: 75ms;\n"
+      },
+      {
+        "Class": "duration-100",
+        "Properties": "transition-duration: 100ms;\n"
+      },
+      {
+        "Class": "duration-150",
+        "Properties": "transition-duration: 150ms;\n"
+      },
+      {
+        "Class": "duration-200",
+        "Properties": "transition-duration: 200ms;\n"
+      },
+      {
+        "Class": "duration-300",
+        "Properties": "transition-duration: 300ms;\n"
+      },
+      {
+        "Class": "duration-500",
+        "Properties": "transition-duration: 500ms;\n"
+      },
+      {
+        "Class": "duration-700",
+        "Properties": "transition-duration: 700ms;\n"
+      },
+      {
+        "Class": "duration-1000",
+        "Properties": "transition-duration: 1000ms;\n"
+      }
+    ]
+  },
+  {
+    "name": "Transition Timing Function",
+    "table": [
+      {
+        "Class": "ease-linear",
+        "Properties": "transition-timing-function: linear;\n"
+      },
+      {
+        "Class": "ease-in",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n"
+      },
+      {
+        "Class": "ease-out",
+        "Properties": "transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n"
+      },
+      {
+        "Class": "ease-in-out",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n"
+      }
+    ]
+  },
+  {
+    "name": "Transition Delay",
+    "table": [
+      {
+        "Class": "ease-linear",
+        "Properties": "transition-timing-function: linear;\n"
+      },
+      {
+        "Class": "ease-in",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n"
+      },
+      {
+        "Class": "ease-out",
+        "Properties": "transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n"
+      },
+      {
+        "Class": "ease-in-out",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n"
+      }
+    ]
+  },
+  {
+    "name": "Animation",
+    "table": [
+      {
+        "Class": "ease-linear",
+        "Properties": "transition-timing-function: linear;\n"
+      },
+      {
+        "Class": "ease-in",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 1, 1);\n"
+      },
+      {
+        "Class": "ease-out",
+        "Properties": "transition-timing-function: cubic-bezier(0, 0, 0.2, 1);\n"
+      },
+      {
+        "Class": "ease-in-out",
+        "Properties": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n"
+      }
+    ]
+  }
+]
