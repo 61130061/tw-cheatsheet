@@ -32,31 +32,32 @@ export default {
     <Navbar />
     <div class="flex-1">
       <div class="m-5 flex flex-wrap gap-5">
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
+        <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
           <div class="px-3 py-2 mb-2 font-bold">Layout</div>
           <Item v-for="(data, index) in layout" :data="data" />
         </div>
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
+        <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
           <div class="px-3 py-2 mb-2 font-bold">Flexbox and Grid</div>
           <Item v-for="(data, index) in flexAndGrid" :data="data" />
         </div>
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
-          <div class="px-3 py-2 mb-2 font-bold">Spacing</div>
-          <Item v-for="(data, index) in spacing" :data="data" />
+        <div class="flex flex-col gap-5">
+          <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
+            <div class="px-3 py-2 mb-2 font-bold">Spacing</div>
+            <Item v-for="(data, index) in spacing" :data="data" />
+          </div>
+          <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
+            <div class="px-3 py-2 mb-2 font-bold">Sizing</div>
+            <Item v-for="(data, index) in sizing" :data="data" />
+          </div>
+          <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
+            <div class="px-3 py-2 mb-2 font-bold">Backgrounds</div>
+            <Item v-for="(data, index) in backgrounds" :data="data" />
+          </div>
         </div>
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
-          <div class="px-3 py-2 mb-2 font-bold">Sizing</div>
-          <Item v-for="(data, index) in sizing" :data="data" />
-        </div>
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
+        <div class="break-inside-avoid bg-gray-200 p-2 rounded-lg w-[450px] h-fit">
           <div class="px-3 py-2 mb-2 font-bold">Typography</div>
           <Item v-for="(data, index) in typography" :data="data" />
         </div>
-        <div class="bg-gray-200 p-2 rounded-lg w-[350px] h-fit">
-          <div class="px-3 py-2 mb-2 font-bold">Backgrounds</div>
-          <Item v-for="(data, index) in backgrounds" :data="data" />
-        </div>
-
       </div>
     </div>
   </div>

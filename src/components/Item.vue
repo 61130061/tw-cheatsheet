@@ -1,6 +1,6 @@
 <script lang="ts">
   const getColor = (name) => {
-    let className = ['py-2']
+    let className = ['py-2', 'align-top']
     if (name.toLowerCase() === 'class') className.push('text-blue-500')
     else if (name.toLowerCase() === 'properties') className.push('text-purple-500')
     else className.push('text-gray-500')
